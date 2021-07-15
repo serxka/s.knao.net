@@ -1,0 +1,83 @@
+:root {
+	--fg-col: #131316;
+	--bg-col: #FFF;
+	--pri-col: #4D9093;
+	--sec-col: #DF2935;
+	--text-col: var(--fg-col);
+	--link-col: var(--fg-col);
+	--border: solid 0.16em var(--fg-col)
+}
+
+* {
+	font-family: 'Space Mono', monospace;
+	font-variant-ligatures: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	font-size: 1em;
+	margin: 0
+}
+
+hr {
+	background: var(--fg-col);
+	border: none;
+	height: 2.3px;
+}
+
+a {
+	text-decoration: none
+}
+
+a:link {
+	color: #ff1493
+}
+
+a:visited {
+	color: #7F397A
+}
+
+a:hover {
+	color: #79B5B9
+}
+
+a:active {
+	color: #8f004c
+}
+
+.anchor:link {
+	color: var(--text-col)
+}
+
+.anchor:visited {
+	color: var(--text-col)
+}
+
+.anchor:hover {
+	color: var(--text-col)
+}
+
+.anchor:active {
+	color: var(--text-col)
+}
+
+body {
+	background-color: var(--bg-col);
+	color: var(--fg-col);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	max-height: 100vw;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+#card {
+	max-width: 600px;
+	min-width: 600px;
+	min-height: 400px;
+	margin: auto;
+	padding: 2em;
+	border: solid var(--fg-col) 3px;
+}

@@ -75,9 +75,17 @@ body {
 
 #card {
 	max-width: 600px;
-	min-width: 600px;
+	min-width: 755px;
 	min-height: 400px;
 	margin: auto;
 	padding: 2em;
 	border: solid var(--fg-col) 3px;
+}
+
+.stamp99x56 {
+  padding: 2px
+}
+
+.stamp88x31 {
+  padding: 2px
 }
